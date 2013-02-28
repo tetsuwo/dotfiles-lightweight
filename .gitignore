@@ -19,6 +19,9 @@ Thumbs.db
 !/.gitignore
 !/.gitmodules
 
+# etc.
+!/README.md
+
 
 # さらに開始対象外
 /.vim/bundle
