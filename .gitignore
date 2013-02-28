@@ -1,0 +1,25 @@
+# 監視対象外
+/*
+/.*
+.*/
+Thumbs.db
+.DS_Store
+.netrwhist
+
+
+# 監視対象内
+
+## vim
+!/.gvimrc
+!/.vim
+!/.vimrc
+
+## git
+!/.gitconfig
+!/.gitignore
+!/.gitmodules
+
+
+# さらに開始対象外
+/.vim/bundle
+/.vim/tags
