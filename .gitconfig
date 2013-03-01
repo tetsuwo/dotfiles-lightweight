@@ -1,9 +1,9 @@
 [user]
-	name = tetsuwo
-	email = tetsuwo.oishi@gmail.com
+    name = tetsuwo
+    email = tetsuwo.oishi@gmail.com
 
 [color]
-	ui = auto
+    ui = auto
 
 [alias]
     st = status
@@ -11,4 +11,4 @@
     ll = log --date=iso -10
 
 [core]
-	shared = true
+    shared = true

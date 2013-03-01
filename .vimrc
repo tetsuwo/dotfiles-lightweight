@@ -11,9 +11,8 @@ let mapleader = ","
 
 " BASIC SETTING {{{
 " ----------------------------------------------------------------
-set runtimepath+=~/.vim/
 syntax on
-
+set runtimepath+=~/.vim/
 set number           " indicate line number
 set tabstop=4        " tabサイズ
 set expandtab        " タブをスペースに展開しない (expandtab:展開する)
@@ -50,11 +49,6 @@ set tags=./tags,./../tags,./*/tags,./../../tags,./../../../tags,./../../../../ta
 " FUNCTION SETTING {{{
 " ----------------------------------------------------------------
 function! PHPLint()
-    let result = system( &ft . ' -l ' . bufname(""))
-    echo result
-endfunction
-
-function! RubyLint()
     let result = system( &ft . ' -l ' . bufname(""))
     echo result
 endfunction
