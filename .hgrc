@@ -1,0 +1,9 @@
+[ui]
+username = Tetsuwo OISHI <tetsuwo.oishi@gmail.com>
+
+[alias]
+lg = glog --template '{rev}:{node|short} {desc|firstline|fill68|tabindent|tabindent}' --limit 20
+
+[extensions]
+purge =
+graphlog = 
