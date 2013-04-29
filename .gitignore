@@ -5,7 +5,9 @@
 Thumbs.db
 .DS_Store
 .netrwhist
-
+*~
+*.swp
+/.vim/tmp/*
 
 # 監視対象内
 
@@ -18,6 +20,10 @@ Thumbs.db
 !/.gitconfig
 !/.gitignore
 !/.gitmodules
+!/.vim/tmp/.gitkeep
+
+## hg
+!/.hgrc
 
 # etc.
 !/README.md
@@ -26,3 +32,4 @@ Thumbs.db
 # さらに開始対象外
 /.vim/bundle
 /.vim/tags
+/.vim/backup
