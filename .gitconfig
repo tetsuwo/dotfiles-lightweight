@@ -2,13 +2,19 @@
     name = tetsuwo
     email = tetsuwo.oishi@gmail.com
 
+[alias]
+    st = status
+    lg = log --graph --pretty=format:"<%C(yellow)%h%C(reset)>%x20%s%x20...%x20%C(reset)%an%C(reset)%x20(%ar)" -20
+    ll = log --date=iso -10
+
+[branch]
+    autosetuprebase = always
+
 [color]
     ui = auto
 
-[alias]
-    st = status
-    lg = log --graph --pretty=oneline -20
-    ll = log --date=iso -10
-
 [core]
     shared = true
+
+[push]
+    default = simple
