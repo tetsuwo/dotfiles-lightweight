@@ -6,4 +6,5 @@ lg = glog --template '{rev}:{node|short} {desc|firstline|fill68|tabindent|tabind
 
 [extensions]
 purge =
-graphlog = 
+graphlog =
+color =
